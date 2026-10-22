@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific secrets and local state
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+node_modules/
+.wrangler/
+*.sqlite
+*.sqlite3
+*.db
+.DS_Store
+.DS_Store?
+._*
+*.tmp
+*.bak
+.idea/

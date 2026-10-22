@@ -1,0 +1,10 @@
+name = "kvm-monitor"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# Fill in the database_id after creating the database with
+# wrangler d1 create kvm-monitor-db
+[[d1_databases]]
+binding = "DB"
+database_name = "kvm-monitor-db"
+database_id = "REPLACE_WITH_YOUR_DATABASE_ID"
